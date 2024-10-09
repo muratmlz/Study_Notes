@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <title>Σημειώσεις Μελέτης</title>
+</head>
+<body>
+    <h1>Σημειώσεις Μελέτης</h1>
+    <div class="container">
+        <label for="book">Όνομα Βιβλίου:</label>
+        <input type="text" id="book" placeholder="Εισάγετε το όνομα του βιβλίου">
+        
+        <label for="page">Σελίδα:</label>
+        <input type="number" id="page" placeholder="Εισάγετε τη σελίδα">
+        
+        <button id="saveButton">Αποθήκευση</button>
+        <button id="updateButton" style="display: none;">Ενημέρωση</button>
+        
+        <ul id="bookList"></ul>
+
+        <div id="stats">
+            <p id="totalBooks">Συνολικά Βιβλία: 0</p>
+            <p id="totalPages">Συνολικές Σελίδες: 0</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
