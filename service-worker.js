@@ -1,14 +1,14 @@
 const CACHE_NAME = "study-notes-cache-v1";
 const urlsToCache = [
-  "/",
-  "/index.html",
-  "/styles.css",
-  "/script.js",
-  "/manifest.json",
-  "/images/icon-192.png",
-  "/images/icon-512.png",
-  "/images/delete-icon.png",
-  "images/edit-icon.png"
+  "./",
+  "./index.html",
+  "./styles.css",
+  "./script.js",
+  "./manifest.json",
+  "./images/icon-192.png",
+  "./images/icon-512.png",
+  "./images/delete-icon.png",
+  ".images/edit-icon.png"
 ];
 
 self.addEventListener("install", event => {
